@@ -1,19 +1,15 @@
 # Mandelbrot
 Mandelbrot code
 
-This code obviously needs python but other than this I haven’t used any libraries
+This code needs needs python and numpy
 
 Thanks to all those on reddit for who were interested in my code, so here it is.
 
-Sorry; this isn’t my best work.
-	I never expected that people would want to see it.
+In testing it took about 30-60 seconds to render but the Tk can crash if there are too many pixels in the canvas,
+	on line <> in main.py there is a var called 'pixels' chaging this will change how many different pixels there are on the screen.
 
-I have *tried* to comment on all the code to make it better but I can't promise anything
-
-In testing it took about 2500 second to render because of how horrifically unoptimised my code is, so run the ‘main.py’ code and go make a cup of tea.
-
-I *think* that i found the issue but haven't tried to fix it (more on line 36 in 'complex_maths.py')
 
 	- TFC(James Packham)
+		& 
 
 Ps. please don’t steal my code
